@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import {browserHistory} from 'react-router'
 
 class Person extends React.Component {
@@ -42,8 +43,8 @@ class Person extends React.Component {
         return (
             <div>
                 <div className="row header">
-                    <div className="row header text-center">
-                        <div className="col-sm-12"><h3>Back</h3></div>
+                    <div onClick={browserHistory.goBack} className="col-sm-2">
+                        Back
                     </div>
 
                     <div className="col-sm-10">
