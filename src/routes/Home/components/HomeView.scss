@@ -1,0 +1,28 @@
+.duck {
+    display: block;
+    width: 120px;
+    margin: 1.5rem auto;
+}
+
+.user-list-btn {
+    > button {
+        margin-left: 5px;
+        margin-bottom: 5px;
+        > a {
+            color: white;
+        }
+    }
+}
+
+img.mr-3 {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.header {
+    text-align: center;
+}
+
+.row.content {
+    padding-top: 10px;
+}
