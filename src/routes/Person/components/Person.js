@@ -43,12 +43,12 @@ class Person extends React.Component {
         return (
             <div>
                 <div className="row header">
-                    <div onClick={browserHistory.goBack} className="col-sm-2">
-                        Back
+                    <div  className="left-header-button">
+                        <h5 onClick={browserHistory.goBack}>&lt; Back</h5>
                     </div>
 
                     <div className="col-sm-10">
-                        Person
+                        <h5>Person</h5>
                     </div>
 
                 </div>

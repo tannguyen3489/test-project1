@@ -30,7 +30,7 @@ class HomeView extends React.Component {
         return (
             <div>
                 <div className="row header text-center">
-                    <div className="col-sm-12"><h3>Home</h3></div>
+                    <div className="col-sm-12"><h4>Home</h4></div>
                 </div>
 
                 <div className="row content">
